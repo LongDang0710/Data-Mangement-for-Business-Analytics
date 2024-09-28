@@ -21,6 +21,7 @@ print(df)
 
 # 3. Replace any value >2 or <2 with NaN
 # Replace values greater than 2 or less than -2 with NaN
-df = df.where((df < 2) & (df > -2), np.nan)
+df = df.where((df < 2) & (df >
+                          -2), np.nan)
 print(df)
 
